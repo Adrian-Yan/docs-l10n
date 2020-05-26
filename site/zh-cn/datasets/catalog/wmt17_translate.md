@@ -37,7 +37,7 @@ builder = tfds.builder("wmt_translate", config=config)
     wmt 的部分配置如下，需要手动下载。
     开发者需在 `wmt.py` 中查看需要  下载的文件名和具体路径。
 
-* **Auto-cached**([documentation](https://www.tensorflow.google.cn/datasets/performances#auto-caching))：否
+* **Auto-cached**([文档](https://www.tensorflow.google.cn/datasets/performances#auto-caching))：否
 
 * **引用**:
 
@@ -66,7 +66,7 @@ builder = tfds.builder("wmt_translate", config=config)
 *   **下载大小**: `1.66 GiB`
 *   **数据分块**:
 
-分块        | 样本
+分块        | 样本数
 :----------- | ---------:
 'test'       | 3,005
 'train'      | 15,851,649
@@ -92,7 +92,7 @@ Translation({
 *   **下载大小**: `414.10 MiB`
 *   **数据分块**:
 
-分块        | Examples
+分块        | 样本数
 :----------- | --------:
 'test'       | 6,004
 'train'      | 2,656,542
@@ -117,7 +117,7 @@ Translation({
 *   **下载大小**: `161.69 MiB`
 *   **数据分块**:
 
-分块        | Examples
+分块        | 样本数
 :----------- | --------:
 'test'       | 2,001
 'train'      | 3,567,528
@@ -142,7 +142,7 @@ Translation({
 *   **下载大小**: `3.34 GiB`
 *   **数据分块**:
 
-分块        | Examples
+分块        | 样本数
 :----------- | ---------:
 'test'       | 3,001
 'train'      | 25,782,720
@@ -167,7 +167,7 @@ Translation({
 *   **下载大小**: `59.32 MiB`
 *   **数据分块**:
 
-分块        | Examples
+分块        | 样本数
 :----------- | -------:
 'test'       | 3,007
 'train'      | 205,756
@@ -192,7 +192,7 @@ Translation({
 *   **下载大小**: `2.16 GiB`
 *   **数据分块**:
 
-分块        | Examples
+分块        | 样本数
 :----------- | ---------:
 'test'       | 2,001
 'train'      | 25,136,609
