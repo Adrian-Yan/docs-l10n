@@ -13,8 +13,8 @@ config = tfds.translate.wmt.WmtConfig(
     version="0.0.1",
     language_pair=("fr", "de"),
     subsets={
-        tfds.分块.TRAIN: ["commoncrawl_frde"],
-        tfds.分块.VALIDATION: ["euelections_dev2019"],
+        tfds.Split.TRAIN: ["commoncrawl_frde"],
+        tfds.split.VALIDATION: ["euelections_dev2019"],
     },
 )
 builder = tfds.builder("wmt_translate", config=config)
